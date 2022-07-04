@@ -2,14 +2,15 @@
 	let name='world'
 	let toggle = false
 	if (toffle){
-	 	JavaScript 조건문 
+	 	//JavaScript 조건문 
 	}
 </script>
 
 <main>
+<button on:click={() => (toggle=!toggle)}> toggle </button>
 {#if toggle}
 <h1>Hello! {name}! </h1>
-{/if} 
+{/if}  
 </main>
 
 <style>
