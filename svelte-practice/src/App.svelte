@@ -1,18 +1,15 @@
 <script>
- let name = 'world';
- let age = 85
- function assign {
-	 name = 'Heropy'
-	 age = 36
- }
+	let name='world'
+	let toggle = false
+	if (toffle){
+	 	JavaScript 조건문 
+	}
 </script>
 
 <main>
-	<h1>Hello {name}!</h1> 
-	<h2 class ={age <85? 'active': ''}>{age}</h2>
-	<img src = "" alt ={name}/>
-	<input type = text value = {name} />
-	<button on:click={assign}>assign</button>
+{#if toggle}
+<h1>Hello! {name}! </h1>
+{/if} 
 </main>
 
 <style>
